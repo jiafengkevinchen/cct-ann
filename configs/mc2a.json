@@ -1,0 +1,22 @@
+{
+    "arch_depth": 3,
+    "arch_width": 10,
+    "arch_hidden_activation": "relu",
+    "opt_learning_rate": 0.01,
+    "opt_weight_decay": 0,
+    "train_max_epoch": 10000,
+    "train_min_epoch": 7000,
+    "train_stopping_param_tol": 0.001,
+    "train_stopping_grad_tol": 100,
+    "train_stopping_history_length": 100,
+    "train_callback_freq": 1,
+    "callback": "none",
+    "stopping_criterion": "stopping_criterion",
+    "model_name": "nonparametric",
+    "dataset": "mc2a",
+    "regularizer": "none",
+    "optimizer": "adam",
+    "data_nuisance_dimension": 10,
+    "data_nuisance_relevant": true,
+    "data_corr": 0.5
+}

@@ -1,0 +1,6 @@
+{
+    "arch_depth": [1],
+    "data_nuisance_dimension" : [0, 5, 10],
+    "arch_hidden_activation" : ["sigmoid"],
+    "opt_learning_rate" : [0.01]
+}

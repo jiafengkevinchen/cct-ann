@@ -1,0 +1,20 @@
+{
+    "arch_depth": 1,
+    "arch_width": 40,
+    "arch_hidden_activation": "sigmoid",
+    "opt_learning_rate": 0.005,
+    "opt_weight_decay": 0,
+    "train_max_epoch": 10000,
+    "train_min_epoch": 6000,
+    "train_stopping_param_tol": 0.001,
+    "train_stopping_grad_tol": 100,
+    "train_stopping_history_length": 100,
+    "train_callback_freq": 1000,
+    "callback": "callback",
+    "stopping_criterion": "stopping_criterion",
+    "model_name": "nonparametric",
+    "dataset": "mc4",
+    "regularizer": "none",
+    "optimizer": "adam",
+    "data_nuisance_dimension": 5
+}
